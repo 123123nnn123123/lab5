@@ -174,7 +174,6 @@ const server = http.createServer(async (req, res) => {
     }
   }
 });
-
 // once() з node:events повертає проміс: без колбеків.
 // Якщо listen впаде (наприклад, порт зайнятий), once відхилить проміс.
 server.listen(portNumber, host);
