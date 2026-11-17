@@ -95,7 +95,6 @@ async function handleGet(res, code) {
   const file = filePath(code);
   let image;
   let source;
-
   try {
     image = await fs.readFile(file);
     source = 'HIT'; // влучання в кеш
