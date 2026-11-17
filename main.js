@@ -120,7 +120,6 @@ async function handleGet(res, code) {
   });
   res.end(image);
 }
-
 async function handlePut(req, res, code) {
   const body = await readBody(req);
   if (body.length === 0) {
