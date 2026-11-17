@@ -91,7 +91,6 @@ async function saveAtomic(file, data) {
 // ---------------------------------------------------------------
 // 3. Обробники методів
 // ---------------------------------------------------------------
-
 async function handleGet(res, code) {
   const file = filePath(code);
   let image;
